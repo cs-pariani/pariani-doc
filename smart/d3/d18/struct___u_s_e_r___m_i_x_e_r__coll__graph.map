@@ -1,0 +1,5 @@
+<map id="_USER_MIXER" name="_USER_MIXER">
+<area shape="rect" id="node1" title="Contains all data to control all those aspects concerning the Audio Mixing for a single user." alt="" coords="33,95,144,121"/>
+<area shape="rect" id="node2" href="$d2/da1/struct___v_o_x.html" title="VOX status for a single Mic." alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node3" href="$dd/db4/struct___c_o_m_p_r_e_s_s_o_r.html" title="Compressor status for a single Mic." alt="" coords="85,5,207,32"/>
+</map>

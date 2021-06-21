@@ -1,0 +1,5 @@
+<map id="_AUDIOGATEWAY_DEVICE" name="_AUDIOGATEWAY_DEVICE">
+<area shape="rect" id="node1" title="Audio Gateway device." alt="" coords="41,95,231,121"/>
+<area shape="rect" id="node2" href="$dd/d28/struct___i_o_e_x_p___d_e_v_i_c_e.html" title="IOExpander GPIO structure." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node3" href="$df/dc6/struct___i_n_i_c___d_e_v_i_c_e.html" title="INIC GPIO structure." alt="" coords="153,5,261,32"/>
+</map>

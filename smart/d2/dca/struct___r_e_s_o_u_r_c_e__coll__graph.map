@@ -1,0 +1,4 @@
+<map id="_RESOURCE" name="_RESOURCE">
+<area shape="rect" id="node1" title="Contains all the MQTT topics for the specific resource." alt="" coords="5,95,108,121"/>
+<area shape="rect" id="node2" href="$d9/de3/struct___s_c_h_e_m_a.html" title="Contains all variables to describe the SCHEMA of a specific CENSO resource." alt="" coords="14,5,99,32"/>
+</map>
