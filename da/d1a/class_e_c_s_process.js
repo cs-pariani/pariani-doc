@@ -2,7 +2,9 @@ var class_e_c_s_process =
 [
     [ "ECSProcess", "da/d1a/class_e_c_s_process.html#aa9ac0d23fc46b6d8ac7510ef64b6b9ee", null ],
     [ "~ECSProcess", "da/d1a/class_e_c_s_process.html#ae1c5b78d6875fe28f298650f33125449", null ],
+    [ "AddToHWqueue", "da/d1a/class_e_c_s_process.html#a91c94eaec035c80af1bd0d9286ab155d", null ],
     [ "AddToMQTTqueue", "da/d1a/class_e_c_s_process.html#a676cf373e78a5cb47c35bc7a1a1de8ec", null ],
+    [ "GetFromHWqueue", "da/d1a/class_e_c_s_process.html#a52c7e588e6b01bb6da512df3277511cb", null ],
     [ "GetFromMQTTqueue", "da/d1a/class_e_c_s_process.html#ac5b16b352391a58f2815d09bb8d915a7", null ],
     [ "HWerrorRec", "da/d1a/class_e_c_s_process.html#a5506d1e27de61ad10b0a6daab0cfa37b", null ],
     [ "HWmessageRec", "da/d1a/class_e_c_s_process.html#af1374f89a59400109905abf90738f4ac", null ],

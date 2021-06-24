@@ -1,9 +1,10 @@
 <map id="HW_Base_Service" name="HW_Base_Service">
-<area shape="rect" id="node1" title="Hardware Service Class. All virtual methods must be implemented in subclass. This basic class provide..." alt="" coords="287,5,418,32"/>
+<area shape="rect" id="node1" title="Hardware Service Class. All virtual methods must be implemented in subclass. This basic class provide..." alt="" coords="349,5,479,32"/>
 <area shape="rect" id="node2" href="$d3/de6/class_c_l_s_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Light Management." alt="" coords="5,80,100,107"/>
 <area shape="rect" id="node3" href="$da/d1a/class_e_c_s_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Cabin conditioning." alt="" coords="124,80,221,107"/>
 <area shape="rect" id="node4" href="$d6/dd8/class_e_n_t_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Entertainment Monitor functions." alt="" coords="245,80,340,107"/>
 <area shape="rect" id="node5" href="$d6/df6/class_m_a_p_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Moving Map" alt="" coords="365,80,463,107"/>
 <area shape="rect" id="node6" href="$d1/dea/class_m_i_x_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Audio mixing." alt="" coords="487,80,578,107"/>
-<area shape="rect" id="node7" href="$d2/db3/class_w_i_n_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Windows shading." alt="" coords="603,80,697,107"/>
+<area shape="rect" id="node7" href="$d3/d6d/class_m_n_t_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Maintenance as well as Diagnostic of each ..." alt="" coords="603,80,700,107"/>
+<area shape="rect" id="node8" href="$d2/db3/class_w_i_n_process.html" title="Subclass of HW_Base_Service. Handles all stuffs concerning Windows shading." alt="" coords="724,80,819,107"/>
 </map>

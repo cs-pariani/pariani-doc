@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "SMART IFE/CMS", "index.html", [
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -44,9 +47,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d4/d7a/_smart_system_8h_source.html",
-"d8/d97/class_a_p_mqtt.html#abeb8b3c5a421b2fb59e460c1ce3e17d4",
-"dir_36e85ec72b622fca214f7395c0973b72.html"
+"d3/d4c/class_swagger_1_1_s_w_g_model___provisioning_account.html#a7cedace2138112fe3ae1cea208f35667",
+"d6/d93/class_api_interface.html#ac282dc8906721c069e0442ea11a2ab0b",
+"d8/dda/class_swagger_1_1_s_w_g_resource_api.html#a954a5c592edc2958bc8e42098606413f",
+"dc/d7d/structmtc__data__valid.html#ae2e1c15bbc2fa49da7f98ac6c429153b",
+"functions_func_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -232,6 +232,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=".
 <tr class="memitem:ac5b16b352391a58f2815d09bb8d915a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1a/class_e_c_s_process.html#ac5b16b352391a58f2815d09bb8d915a7">GetFromMQTTqueue</a> (<a class="el" href="../../d3/d75/struct__ap__pair__data.html">_ap_pair_data</a> *)</td></tr>
 <tr class="memdesc:ac5b16b352391a58f2815d09bb8d915a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the MQTT input queue q_inputMsgMQTT.  <a href="../../da/d1a/class_e_c_s_process.html#ac5b16b352391a58f2815d09bb8d915a7">More...</a><br /></td></tr>
 <tr class="separator:ac5b16b352391a58f2815d09bb8d915a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c94eaec035c80af1bd0d9286ab155d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1a/class_e_c_s_process.html#a91c94eaec035c80af1bd0d9286ab155d">AddToHWqueue</a> (<a class="el" href="../../d3/d75/struct__ap__pair__data.html">_ap_pair_data</a>)</td></tr>
+<tr class="memdesc:a91c94eaec035c80af1bd0d9286ab155d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue CAN message in q_inputMsgHW queue.  <a href="../../da/d1a/class_e_c_s_process.html#a91c94eaec035c80af1bd0d9286ab155d">More...</a><br /></td></tr>
+<tr class="separator:a91c94eaec035c80af1bd0d9286ab155d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c7e588e6b01bb6da512df3277511cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1a/class_e_c_s_process.html#a52c7e588e6b01bb6da512df3277511cb">GetFromHWqueue</a> (<a class="el" href="../../d3/d75/struct__ap__pair__data.html">_ap_pair_data</a> *)</td></tr>
+<tr class="memdesc:a52c7e588e6b01bb6da512df3277511cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the first element of the MQTT input queue q_inputMsgMQTT.  <a href="../../da/d1a/class_e_c_s_process.html#a52c7e588e6b01bb6da512df3277511cb">More...</a><br /></td></tr>
+<tr class="separator:a52c7e588e6b01bb6da512df3277511cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -274,6 +280,32 @@ Handles all stuffs concerning Cabin conditioning. </p>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a91c94eaec035c80af1bd0d9286ab155d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c94eaec035c80af1bd0d9286ab155d">&#9670;&nbsp;</a></span>AddToHWqueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ECSProcess::AddToHWqueue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d75/struct__ap__pair__data.html">_ap_pair_data</a>&#160;</td>
+          <td class="paramname"><em>_p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enqueue CAN message in q_inputMsgHW queue. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Message</td><td>from CAN Hardware Layer of type <a class="el" href="../../d3/d75/struct__ap__pair__data.html" title="Topic/Payload pair structure - Basic data received from MOSQUITTO broker.">_ap_pair_data</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a676cf373e78a5cb47c35bc7a1a1de8ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a676cf373e78a5cb47c35bc7a1a1de8ec">&#9670;&nbsp;</a></span>AddToMQTTqueue()</h2>
 
@@ -307,6 +339,32 @@ Handles all stuffs concerning Cabin conditioning. </p>
 </dl>
 
 <p>Implements <a class="el" href="../../d4/dfd/class_h_w___base___service.html#a70498909325e86b7fbe10981a00fd7ee">HW_Base_Service</a>.</p>
+
+</div>
+</div>
+<a id="a52c7e588e6b01bb6da512df3277511cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c7e588e6b01bb6da512df3277511cb">&#9670;&nbsp;</a></span>GetFromHWqueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ECSProcess::GetFromHWqueue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d75/struct__ap__pair__data.html">_ap_pair_data</a> *&#160;</td>
+          <td class="paramname"><em>_p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the first element of the MQTT input queue q_inputMsgMQTT. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Message</td><td>from CAN Hardware Layer of type <a class="el" href="../../d3/d75/struct__ap__pair__data.html" title="Topic/Payload pair structure - Basic data received from MOSQUITTO broker.">_ap_pair_data</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -830,6 +888,7 @@ Handles all stuffs concerning Cabin conditioning. </p>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/SVN/AP_SMART/trunk/AP01011000A_NH90_QATAR_AIRBUS/Software/HWS/HW_ECS_Service/<a class="el" href="../../dc/de6/_e_c_s_process_8h_source.html">ECSProcess.h</a></li>
 <li>D:/SVN/AP_SMART/trunk/AP01011000A_NH90_QATAR_AIRBUS/Software/HWS/HW_ECS_Service/ECSProcess.cpp</li>
+<li>D:/SVN/AP_SMART/trunk/AP01011000A_NH90_QATAR_AIRBUS/Software/HWS/HW_ECS_Service/moc/moc_ECSProcess.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

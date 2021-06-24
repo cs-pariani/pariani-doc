@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/da6/_api_interface_8h_source.html',
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../swagger-client/SWGPresetApi.h&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;../swagger-client/SWGHelpers.h&quot;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">using namespace </span>Swagger;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d2/d28/namespace_swagger.html">Swagger</a>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../dd/d24/struct__api_configuration.html">   31</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../dd/d24/struct__api_configuration.html#aab476a91b3e116e9f4df659d2cd934fb">   32</a></span>&#160;    QString <a class="code" href="../../dd/d24/struct__api_configuration.html#aab476a91b3e116e9f4df659d2cd934fb">host</a>;               </div>
@@ -135,10 +135,10 @@ $(document).ready(function(){initNavTree('d2/da6/_api_interface_8h_source.html',
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">private</span>:   </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../dd/d24/struct__api_configuration.html">_apiConfiguration</a> m_conf;           </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    SWGResourceApi *swgResApi;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    SWGMetadataApi *swgMetaApi;   </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    SWGAccountsApi *swgUserApi;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    SWGPresetApi *swgPresetApi;   </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../d8/dda/class_swagger_1_1_s_w_g_resource_api.html">SWGResourceApi</a> *swgResApi;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="../../db/d76/class_swagger_1_1_s_w_g_metadata_api.html">SWGMetadataApi</a> *swgMetaApi;   </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../dd/d88/class_swagger_1_1_s_w_g_accounts_api.html">SWGAccountsApi</a> *swgUserApi;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d3/d34/class_swagger_1_1_s_w_g_preset_api.html">SWGPresetApi</a> *swgPresetApi;   </div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    </div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">public</span> slots:</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> GetResource(QString resource);</div>
@@ -179,23 +179,23 @@ $(document).ready(function(){initNavTree('d2/da6/_api_interface_8h_source.html',
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">void</span> putPresetByNameSignalE(QString* summary, QNetworkReply::NetworkError error_type, QString&amp; error_str);</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;signals:</div>
-<div class="line"><a name="l00216"></a><span class="lineno"><a class="line" href="../../d6/d93/class_api_interface.html#a1e1ad4fce7f711beec9c3ad70cb8e908">  216</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d93/class_api_interface.html#a1e1ad4fce7f711beec9c3ad70cb8e908">sig_resourceValue</a>(QString value);</div>
-<div class="line"><a name="l00221"></a><span class="lineno"><a class="line" href="../../d6/d93/class_api_interface.html#a6927b55ac87fe7abb53603f9681284f7">  221</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d93/class_api_interface.html#a6927b55ac87fe7abb53603f9681284f7">sig_metadataValue</a>(QString value);</div>
-<div class="line"><a name="l00226"></a><span class="lineno"><a class="line" href="../../d6/d93/class_api_interface.html#ac7f36c344effdfaedd5fe24f1410934d">  226</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d93/class_api_interface.html#ac7f36c344effdfaedd5fe24f1410934d">sig_userValue</a>(QString value);</div>
-<div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="../../d6/d93/class_api_interface.html#aa4b92a2bc44eb5105a234d783adc8c72">  231</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d93/class_api_interface.html#aa4b92a2bc44eb5105a234d783adc8c72">sig_presetValue</a>(QString value);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordtype">void</span> sig_resourceValue(QString value);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">void</span> sig_metadataValue(QString value);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">void</span> sig_userValue(QString value);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordtype">void</span> sig_presetValue(QString value);</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
-<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="../../d6/d93/class_api_interface.html#ab95798871b2f55345fdad14176c5f355">  238</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d93/class_api_interface.html#ab95798871b2f55345fdad14176c5f355">sig_operationError</a>(QString type, QString error);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordtype">void</span> sig_operationError(QString type, QString error);</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;};</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* APIINTERFACE_H */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
 <div class="ttc" id="aclass_api_interface_html"><div class="ttname"><a href="../../d6/d93/class_api_interface.html">ApiInterface</a></div><div class="ttdoc">Bridge between SMART application and SWAGGER API.</div><div class="ttdef"><b>Definition:</b> ApiInterface.h:46</div></div>
-<div class="ttc" id="aclass_api_interface_html_a1e1ad4fce7f711beec9c3ad70cb8e908"><div class="ttname"><a href="../../d6/d93/class_api_interface.html#a1e1ad4fce7f711beec9c3ad70cb8e908">ApiInterface::sig_resourceValue</a></div><div class="ttdeci">void sig_resourceValue(QString value)</div></div>
-<div class="ttc" id="aclass_api_interface_html_a6927b55ac87fe7abb53603f9681284f7"><div class="ttname"><a href="../../d6/d93/class_api_interface.html#a6927b55ac87fe7abb53603f9681284f7">ApiInterface::sig_metadataValue</a></div><div class="ttdeci">void sig_metadataValue(QString value)</div></div>
-<div class="ttc" id="aclass_api_interface_html_aa4b92a2bc44eb5105a234d783adc8c72"><div class="ttname"><a href="../../d6/d93/class_api_interface.html#aa4b92a2bc44eb5105a234d783adc8c72">ApiInterface::sig_presetValue</a></div><div class="ttdeci">void sig_presetValue(QString value)</div></div>
-<div class="ttc" id="aclass_api_interface_html_ab95798871b2f55345fdad14176c5f355"><div class="ttname"><a href="../../d6/d93/class_api_interface.html#ab95798871b2f55345fdad14176c5f355">ApiInterface::sig_operationError</a></div><div class="ttdeci">void sig_operationError(QString type, QString error)</div></div>
-<div class="ttc" id="aclass_api_interface_html_ac7f36c344effdfaedd5fe24f1410934d"><div class="ttname"><a href="../../d6/d93/class_api_interface.html#ac7f36c344effdfaedd5fe24f1410934d">ApiInterface::sig_userValue</a></div><div class="ttdeci">void sig_userValue(QString value)</div></div>
+<div class="ttc" id="aclass_swagger_1_1_s_w_g_accounts_api_html"><div class="ttname"><a href="../../dd/d88/class_swagger_1_1_s_w_g_accounts_api.html">Swagger::SWGAccountsApi</a></div><div class="ttdef"><b>Definition:</b> SWGAccountsApi.h:25</div></div>
+<div class="ttc" id="aclass_swagger_1_1_s_w_g_metadata_api_html"><div class="ttname"><a href="../../db/d76/class_swagger_1_1_s_w_g_metadata_api.html">Swagger::SWGMetadataApi</a></div><div class="ttdef"><b>Definition:</b> SWGMetadataApi.h:25</div></div>
+<div class="ttc" id="aclass_swagger_1_1_s_w_g_preset_api_html"><div class="ttname"><a href="../../d3/d34/class_swagger_1_1_s_w_g_preset_api.html">Swagger::SWGPresetApi</a></div><div class="ttdef"><b>Definition:</b> SWGPresetApi.h:27</div></div>
+<div class="ttc" id="aclass_swagger_1_1_s_w_g_resource_api_html"><div class="ttname"><a href="../../d8/dda/class_swagger_1_1_s_w_g_resource_api.html">Swagger::SWGResourceApi</a></div><div class="ttdef"><b>Definition:</b> SWGResourceApi.h:25</div></div>
+<div class="ttc" id="anamespace_swagger_html"><div class="ttname"><a href="../../d2/d28/namespace_swagger.html">Swagger</a></div><div class="ttdef"><b>Definition:</b> SWGAccountsApi.cpp:21</div></div>
 <div class="ttc" id="astruct__api_configuration_html"><div class="ttname"><a href="../../dd/d24/struct__api_configuration.html">_apiConfiguration</a></div><div class="ttdoc">Initiate SMART system and connect to SWAGGER API.</div><div class="ttdef"><b>Definition:</b> ApiInterface.h:31</div></div>
 <div class="ttc" id="astruct__api_configuration_html_a1329c68ca6a314a4e05e41afe6866665"><div class="ttname"><a href="../../dd/d24/struct__api_configuration.html#a1329c68ca6a314a4e05e41afe6866665">_apiConfiguration::auth</a></div><div class="ttdeci">QString auth</div><div class="ttdef"><b>Definition:</b> ApiInterface.h:34</div></div>
 <div class="ttc" id="astruct__api_configuration_html_a1d5c10b1a193204cc72716fc30360d68"><div class="ttname"><a href="../../dd/d24/struct__api_configuration.html#a1d5c10b1a193204cc72716fc30360d68">_apiConfiguration::map_ip</a></div><div class="ttdeci">QString map_ip</div><div class="ttdef"><b>Definition:</b> ApiInterface.h:39</div></div>
