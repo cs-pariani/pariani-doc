@@ -110,104 +110,107 @@ $(document).ready(function(){initNavTree('d1/d30/_libraries_2_m_q_t_t_2_smart_mq
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">// SMART</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#define MQTT_LAST_WILL                                  &quot;smart/last-will&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// UNICENS</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_LOCK_GET_REQ                       &quot;unicensd/getnetworklock&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_LOCK_GET_RES                       &quot;unicensd/getnetworklock-response&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_NODE_GET_REQ                       &quot;unicensd/getnodelist&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_NODE_GET_RES                       &quot;unicensd/getnodelist-response&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_DIAG_GET_REQ                       &quot;unicensd/getdiaglist&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_DIAG_GET_RES                       &quot;unicensd/getdiaglist-response&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_START_NW_REQ                       &quot;unicensd/startnetwork&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_DIAG_NW_REQ                        &quot;unicensd/networkdiagnosis&quot;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_GPIO_STAT_REQ                      &quot;unicensd/getgpiostatus&quot;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_GPIO_STAT_RES                      &quot;unicensd/getgpiostatus-response&quot;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// VOD</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#define MQTT_VOD_STATUS_REQ                             &quot;vod/playerstatus&quot;</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#define MQTT_VOD_STATUS_RES                             &quot;vod/playerstatus-response&quot;</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">// INIC</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#define MQTT_INIC_GPIO_CHANGE_RES                       &quot;inic/gpio/onchange-response&quot;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_SET_REQ                           &quot;inic/i2c/setreg&quot;</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_SET_RES                           &quot;inic/i2c/setreg-response&quot;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_GET_REQ                           &quot;inic/i2c/getreg&quot;</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_GET_RES                           &quot;inic/i2c/getreg-response&quot;</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_SYM_GET_RES                       &quot;inic/i2c/sym-getreg-response&quot;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// RIUBUS GPIO</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_STATUS_REQ                          &quot;riubus/status&quot;</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_STATUS_RES                          &quot;riubus/status-response&quot;</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_OUTPUT_STATUS_REQ                   &quot;riubus/output-status&quot;</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_OUTPUT_STATUS_RES                   &quot;riubus/output-status-response&quot;</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_GPIO_SET_REQ                        &quot;riubus/setgpio&quot;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_GPIO_CHANGE_RES                     &quot;riubus/setgpio-response&quot;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_SYM_INPUT_RES                       &quot;riubus/sym-input-response&quot;</span>    </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">// DISPLAY</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#define MQTT_DSP_BACKLIGHT_SET_REQ                      &quot;display/backlight&quot;</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define MQTT_DSP_COMMAND_SET_REQ                        &quot;display/command&quot;</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">// TONES</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define MQTT_TONES_SET_REQ                              &quot;tones/apply_tone&quot;</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">// MODULES</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define MQTT_CENSO_MODULES_METADATA                     &quot;available-modules/metadata&quot;</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">// CENSO - ECS</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_AUTO_CTRL_RES                &quot;resource/ecs-fan-auto-ctrl&quot;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_SPEED_CTRL_RES               &quot;resource/ecs-fan-speed-ctrl&quot;</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_TEMPERATURE_CTRL_RES             &quot;resource/ecs-temperature-ctrl&quot;</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_PWR_CTRL_RES                     &quot;resource/ecs-pwr-ctrl&quot;</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_CKP_CONTROLLED                   &quot;resource/ecs-cockpit-controlled&quot;</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_AUTO_CTRL_SCHEMA             &quot;resource/ecs-fan-auto-ctrl/schema&quot;</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_SPEED_CTRL_SCHEMA            &quot;resource/ecs-fan-speed-ctrl/schema&quot;</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_TEMPERATURE_CTRL_SCHEMA          &quot;resource/ecs-temperature-ctrl/schema&quot;</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_PWR_CTRL_SCHEMA                  &quot;resource/ecs-pwr-ctrl/schema&quot;</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_CKP_CONTROLLED_SCHEMA            &quot;resource/ecs-cockpit-controlled/schema&quot;</span>    </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">// CENSO - LIGHTS</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_AMBIENT_BRIGHTNESS               &quot;resource/cls-ambient-brightness&quot;</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_BRIGHTNESS                   &quot;resource/cls-rgb-brightness&quot;</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_COLOR_UV                     &quot;resource/cls-rgb-color-uv&quot;</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_PLINTH_BRIGHTNESS                &quot;resource/cls-plinth-brightness&quot;</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_DISABLE                          &quot;resource/cls-disable&quot;</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_WLC_STATUS                       &quot;resource/wlc-status&quot;</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_AMBIENT_BRIGHTNESS_SCHEMA        &quot;resource/cls-ambient-brightness/schema&quot;</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_BRIGHTNESS_SCHEMA            &quot;resource/cls-rgb-brightness/schema&quot;</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_COLOR_UV_SCHEMA              &quot;resource/cls-rgb-color-uv/schema&quot;</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_PLINTH_BRIGHTNESS_SCHEMA         &quot;resource/cls-plinth-brightness/schema&quot;</span>  </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_DISABLE_SCHEMA                   &quot;resource/cls-disable/schema&quot;</span>    </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_WLC_STATUS_SCHEMA                &quot;resource/wlc-status/schema&quot;</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">// CENSO - WIN</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_LEFT_CTRL                 &quot;resource/win-brightness-left-ctrl&quot;</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_RIGHT_CTRL                &quot;resource/win-brightness-right-ctrl&quot;</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_LEFT_STATUS_SCHEMA        &quot;resource/win-brightness-left-status/schema&quot;</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_RIGHT_STATUS_SCHEMA       &quot;resource/win-brightness-right-status/schema&quot;</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// CENSO - MIX</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#define MQTT_CENSO_MIXER_SETTINGS_META                  &quot;resource/mixer-audio-hw-settings/metadata&quot;</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">// CENSO - ENT</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_POSITION                 &quot;resource/monitor-position&quot;</span><span class="comment">//&quot;resource/ent-monitor-position&quot;</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_BRIGHTNESS               &quot;resource/monitor-brightness&quot;</span><span class="comment">//&quot;resource/ent-monitor-brightness&quot;</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_VVIP         &quot;resource/enable-video-player-vvip&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-vvip&quot;</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_REAR         &quot;resource/enable-video-player-rear&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-rear&quot;</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_CTRL         &quot;resource/ent-enable-video-player-ctrl&quot;</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_SOURCE                   &quot;resource/monitor-source&quot;</span><span class="comment">//&quot;resource/ent-monitor-source&quot;</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_POSITION_SCHEMA          &quot;resource/monitor-position/schema&quot;</span><span class="comment">//&quot;resource/ent-monitor-position/schema&quot;</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_BRIGHTNESS_SCHEMA        &quot;resource/monitor-brightness/schema&quot;</span><span class="comment">//&quot;resource/ent-monitor-brightness/schema&quot;</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_VVIP_SCHEMA  &quot;resource/enable-video-player-vvip/schema&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-vvip/schema&quot;</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_REAR_SCHEMA  &quot;resource/enable-video-player-rear/schema&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-rear/schema&quot;</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_CTRL_SCHEMA  &quot;resource/ent-enable-video-player-ctrl/schema&quot;</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_SOURCE_SCHEMA            &quot;resource/monitor-source/schema&quot;</span><span class="comment">//&quot;resource/ent-monitor-source/schema&quot;</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">// CENSO - RIUBUS    </span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_RIUBUS_MAPPING_SCHEMA            &quot;resource/riubus-settings/schema&quot;</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_RIUBUS_MAPPING_META              &quot;resource/riubus-settings/metadata&quot;</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> MyID[] = <span class="stringliteral">&quot;SMART MQTT client&quot;</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> RemoteIP[] = <span class="stringliteral">&quot;127.0.0.1&quot;</span>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> RemotePort = 1883;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> DEFAULT_TIME_OUT = 5;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> DEFAULT_QOS = 2;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">#define MQTT_QOS        1</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SMARTMQTT_H */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define MQTT_HWS_INIT_STATUS                            &quot;smart/hws-init-status&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// UNICENS</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_LOCK_GET_REQ                       &quot;unicensd/getnetworklock&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_LOCK_GET_RES                       &quot;unicensd/getnetworklock-response&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_NODE_GET_REQ                       &quot;unicensd/getnodelist&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_NODE_GET_RES                       &quot;unicensd/getnodelist-response&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_DIAG_GET_REQ                       &quot;unicensd/getdiaglist&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_DIAG_GET_RES                       &quot;unicensd/getdiaglist-response&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_START_NW_REQ                       &quot;unicensd/startnetwork&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_DIAG_NW_REQ                        &quot;unicensd/networkdiagnosis&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_GPIO_STAT_REQ                      &quot;unicensd/getgpiostatus&quot;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#define MQTT_UNICENS_GPIO_STAT_RES                      &quot;unicensd/getgpiostatus-response&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">// VOD</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#define MQTT_VOD_STATUS_REQ                             &quot;vod/playerstatus&quot;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#define MQTT_VOD_STATUS_RES                             &quot;vod/playerstatus-response&quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// INIC</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define MQTT_INIC_GPIO_CHANGE_RES                       &quot;inic/gpio/onchange-response&quot;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_SET_REQ                           &quot;inic/i2c/setreg&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_SET_RES                           &quot;inic/i2c/setreg-response&quot;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_GET_REQ                           &quot;inic/i2c/getreg&quot;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_GET_RES                           &quot;inic/i2c/getreg-response&quot;</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#define MQTT_INIC_I2C_SYM_GET_RES                       &quot;inic/i2c/sym-getreg-response&quot;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// RIUBUS GPIO</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_STATUS_REQ                          &quot;riubus/status&quot;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_STATUS_RES                          &quot;riubus/status-response&quot;</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_OUTPUT_STATUS_REQ                   &quot;riubus/output-status&quot;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_OUTPUT_STATUS_RES                   &quot;riubus/output-status-response&quot;</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_GPIO_SET_REQ                        &quot;riubus/setgpio&quot;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_GPIO_CHANGE_RES                     &quot;riubus/setgpio-response&quot;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define MQTT_RIUBUS_SYM_INPUT_RES                       &quot;riubus/sym-input-response&quot;</span>    </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">// DISPLAY</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define MQTT_DSP_BACKLIGHT_SET_REQ                      &quot;display/backlight&quot;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define MQTT_DSP_COMMAND_SET_REQ                        &quot;display/command&quot;</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">// TONES</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define MQTT_TONES_SET_REQ                              &quot;tones/apply_tone&quot;</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">// MODULES</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#define MQTT_CENSO_MODULES_METADATA                     &quot;available-modules/metadata&quot;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">// CENSO - ECS</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_AUTO_CTRL_RES                &quot;resource/ecs-fan-auto-ctrl&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_SPEED_CTRL_RES               &quot;resource/ecs-fan-speed-ctrl&quot;</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_TEMPERATURE_CTRL_RES             &quot;resource/ecs-temperature-ctrl&quot;</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_PWR_CTRL_RES                     &quot;resource/ecs-pwr-ctrl&quot;</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_CKP_CONTROLLED                   &quot;resource/ecs-cockpit-controlled&quot;</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_AUTO_CTRL_SCHEMA             &quot;resource/ecs-fan-auto-ctrl/schema&quot;</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_FAN_SPEED_CTRL_SCHEMA            &quot;resource/ecs-fan-speed-ctrl/schema&quot;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_TEMPERATURE_CTRL_SCHEMA          &quot;resource/ecs-temperature-ctrl/schema&quot;</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_PWR_CTRL_SCHEMA                  &quot;resource/ecs-pwr-ctrl/schema&quot;</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ECS_CKP_CONTROLLED_SCHEMA            &quot;resource/ecs-cockpit-controlled/schema&quot;</span>    </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">// CENSO - LIGHTS</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_AMBIENT_BRIGHTNESS               &quot;resource/cls-ambient-brightness&quot;</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_BRIGHTNESS                   &quot;resource/cls-rgb-brightness&quot;</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_COLOR_UV                     &quot;resource/cls-rgb-color-uv&quot;</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_PLINTH_BRIGHTNESS                &quot;resource/cls-plinth-brightness&quot;</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_DISABLE                          &quot;resource/cls-disable&quot;</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_WLC_STATUS                       &quot;resource/wlc-status&quot;</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_AMBIENT_BRIGHTNESS_SCHEMA        &quot;resource/cls-ambient-brightness/schema&quot;</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_BRIGHTNESS_SCHEMA            &quot;resource/cls-rgb-brightness/schema&quot;</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_RGB_COLOR_UV_SCHEMA              &quot;resource/cls-rgb-color-uv/schema&quot;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_PLINTH_BRIGHTNESS_SCHEMA         &quot;resource/cls-plinth-brightness/schema&quot;</span>  </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_DISABLE_SCHEMA                   &quot;resource/cls-disable/schema&quot;</span>    </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CLS_WLC_STATUS_SCHEMA                &quot;resource/wlc-status/schema&quot;</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">// CENSO - WIN</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_LEFT_CTRL                 &quot;resource/win-brightness-left-ctrl&quot;</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_RIGHT_CTRL                &quot;resource/win-brightness-right-ctrl&quot;</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_LEFT_STATUS_SCHEMA        &quot;resource/win-brightness-left-status/schema&quot;</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#define MQTT_CENSO_WIN_BRIGHT_RIGHT_STATUS_SCHEMA       &quot;resource/win-brightness-right-status/schema&quot;</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">// CENSO - MIX</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#define MQTT_CENSO_MIXER_SETTINGS_META                  &quot;resource/mixer-audio-hw-settings/metadata&quot;</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">// CENSO - ENT</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_POSITION                 &quot;resource/monitor-position&quot;</span><span class="comment">//&quot;resource/ent-monitor-position&quot;</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_BRIGHTNESS               &quot;resource/monitor-brightness&quot;</span><span class="comment">//&quot;resource/ent-monitor-brightness&quot;</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_VVIP         &quot;resource/enable-video-player-vvip&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-vvip&quot;</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_REAR         &quot;resource/enable-video-player-rear&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-rear&quot;</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_CTRL         &quot;resource/ent-enable-video-player-ctrl&quot;</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_SOURCE                   &quot;resource/monitor-source&quot;</span><span class="comment">//&quot;resource/ent-monitor-source&quot;</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_POSITION_SCHEMA          &quot;resource/monitor-position/schema&quot;</span><span class="comment">//&quot;resource/ent-monitor-position/schema&quot;</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_BRIGHTNESS_SCHEMA        &quot;resource/monitor-brightness/schema&quot;</span><span class="comment">//&quot;resource/ent-monitor-brightness/schema&quot;</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_VVIP_SCHEMA  &quot;resource/enable-video-player-vvip/schema&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-vvip/schema&quot;</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_REAR_SCHEMA  &quot;resource/enable-video-player-rear/schema&quot;</span><span class="comment">//&quot;resource/ent-enable-video-player-rear/schema&quot;</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_ENABLE_VIDEO_PLAYER_CTRL_SCHEMA  &quot;resource/ent-enable-video-player-ctrl/schema&quot;</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_MONITOR_SOURCE_SCHEMA            &quot;resource/monitor-source/schema&quot;</span><span class="comment">//&quot;resource/ent-monitor-source/schema&quot;</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">// CENSO - RIUBUS    </span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_RIUBUS_MAPPING_SCHEMA            &quot;resource/riubus-settings/schema&quot;</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#define MQTT_CENSO_ENT_RIUBUS_MAPPING_META              &quot;resource/riubus-settings/metadata&quot;</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">// CENSO - CALL   </span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#define MQTT_CENSO_CALL_META                            &quot;resource/cms-audio-mux/metadata&quot;</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> MyID[] = <span class="stringliteral">&quot;SMART MQTT client&quot;</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> RemoteIP[] = <span class="stringliteral">&quot;127.0.0.1&quot;</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> RemotePort = 1883;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> DEFAULT_TIME_OUT = 5;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> DEFAULT_QOS = 2;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#define MQTT_QOS        1</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SMARTMQTT_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

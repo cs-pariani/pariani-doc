@@ -14,6 +14,7 @@ var struct___u_s_e_r___m_i_x_e_r =
     [ "tone_channel", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#a46c536a80e1fbf135683e4dde42ac5d0", null ],
     [ "tone_volume", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#aefb882adf666584844f929bf50e3b573", null ],
     [ "tx_channel", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#a30a238158b5baac2502d4d33a9f66679", null ],
+    [ "userCenso", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#a0b97c9ebf56d7b57fb1fac5cf129dd77", null ],
     [ "userId", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#a45b721b4f96fa0e4bf15daff049eec77", null ],
     [ "vox", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#a03a742d3ac85cb4e358abd33ea130a18", null ],
     [ "vox_channel", "d7/d14/struct___u_s_e_r___m_i_x_e_r.html#a88b4b1ac4e847320106ba56f79d8179c", null ]
